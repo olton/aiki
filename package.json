@@ -1,0 +1,27 @@
+{
+  "name": "aiki.in.ua",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "build:metro": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@astrojs/mdx": "^3.1.5",
+    "@olton/metroui": "^5.0.10",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "astro": "^4.15.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "devDependencies": {
+    "less": "^4.2.0",
+    "rollup": "^4.21.2"
+  }
+}

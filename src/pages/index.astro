@@ -1,0 +1,214 @@
+---
+import DefaultPage from "../layouts/DefaultPage.astro"
+import {Image} from "astro:assets"
+import Slide1 from "../assets/carousel/slide1.jpg"
+import Slide2 from "../assets/carousel/slide2.jpg"
+import Slide3 from "../assets/carousel/slide3.jpg"
+import Slide4 from "../assets/carousel/slide4.jpg"
+import Slide5 from "../assets/carousel/slide5.jpg"
+import Present1 from "../assets/present/slide1.jpg"
+import Present2 from "../assets/present/slide2.jpg"
+import Present3 from "../assets/present/slide3.jpg"
+import Present4 from "../assets/present/slide4.jpg"
+import Present5 from "../assets/present/slide5.jpg"
+import Present6 from "../assets/present/slide6.jpg"
+import Present7 from "../assets/present/slide7.jpg"
+import Present8 from "../assets/present/slide8.jpg"
+import Present9 from "../assets/present/slide9.jpg"
+import Present10 from "../assets/present/slide10.jpg"
+import Present11 from "../assets/present/slide11.jpg"
+import Present12 from "../assets/present/slide12.jpg"
+import Tarbt from "../assets/tarbt.png"
+import Joe from "../assets/personalities/joe-thambu.jpg"
+import Nik from "../assets/personalities/nikita-orlov.jpg"
+---
+<DefaultPage title="Shigakukan DOJO - Айкідо в Києві">
+    <div class="container-fluid">
+        <div class="container p-0">
+            <div data-role="carousel"
+                 data-effect="zoom"
+                 data-duration="2000"
+                 data-period="5000"
+                 data-auto-start="true"
+                 data-bullets="false"
+                 data-controls="false"
+            >
+                <div class="slide">
+                    <Image src={Slide1} alt="" height="600"/>
+                </div>
+                <div class="slide">
+                    <Image src={Slide2} alt="" height="600"/>
+                </div>
+                <div class="slide">
+                    <Image src={Slide3} alt="" height="600"/>
+                </div>
+                <div class="slide">
+                    <Image src={Slide4} alt="" height="600"/>
+                </div>
+                <div class="slide">
+                    <Image src={Slide5} alt="" height="600"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container bg-accent">
+            <div class="p-20">
+                <div class="row">
+                    <div class="cell-md-8">
+                        <h2 class="text-bold">Shigakukan DOJO - Айкідо у Києві</h2>
+                        <div class="text-leader2">
+                            Ласкаво просимо до Shigakukan DOJO!
+                            <p class="mt-4">Shigakukan DOJO входить до міжнародної організації Aikido Shudokan Internationl під кураторством Joe Thambu Shuseki Shihan.
+                                Ми представляємо стиль Aikido Shudokan! З нами ви навчитеся себе захищати та зміцните свій дух та своє тіло!</p>
+                        </div>
+                    </div>
+                    <div class="cell-md-4 d-flex flex-align-center flex-justify-end">
+                        <a href="/about" class="fg-white no-decor d-block border-3 border-top border-bottom bd-white mr-8 new-button">Дізнатися більше</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tarbt" style="position: absolute; bottom: 0; left: 60px;">
+                <Image src={Tarbt} alt=""/>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container bg-secondary">
+            <div class="pl-10 pr-10 pt-20 pb-20">
+                <div class="row" style="--grid-gutter: 0px; border-collapse: collapse">
+                    <div class="cell-md-6 p-6">
+                        <h3>Тренування для дорослих та дітей</h3>
+                        <div>
+                            Ми проводимо тренування для всіх бажаючих та практично без обмежень щодо здоров'я. У нас тренуються діти від 4-х років, дорослі, а також у нас є персональні тренування.
+                        </div>
+                    </div>
+                    <div class="cell-md-3">
+                        <div class="an-box">Молодша дитяча група 6-9</div>
+                    </div>
+                    <div class="cell-md-3">
+                        <div class="an-box">Старша дитяча група 10-14</div>
+                    </div>
+                    <div class="cell-md-3">
+                        <div class="an-box">Доросла група 15+</div>
+                    </div>
+                    <div class="cell-md-3">
+                        <div class="an-box">Персональні тренування</div>
+                    </div>
+                    <div class="cell-md-3">
+                        <div class="an-box">Спортивний табір</div>
+                    </div>
+                    <div class="cell-md-3">
+                        <div class="an-box">Атестація та сертифікація</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container bg-accent2" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+            <div class="d-flex flex-align-center flex-justify-center flex-column" style="padding: 200px 160px;">
+                <h2 class="text-light"><span class="text-bold">Shigakukan</span> Dojo</h2>
+                <div class="text-leader text-center">
+                    Shigakukan DOJO входить до міжнародної організації Aikido Shudokan Internationl під кураторством <b>Joe Thambu Shuseki Shihan</b>.
+                </div>
+                <div class="text-center mt-10">
+                    <a class="fg-white no-decor" href="http://aikidoshudokaninternational.com/dojos/">[ Aikido Shudokan International ]</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="pt-6 pb-6">
+                <div class="row" style="--grid-gutter: 20px;">
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present1} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present2} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present3} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present4} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present5} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present6} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present7} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present8} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present9} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present10} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present11} alt="" height="400"/>
+                    </div>
+                    <div class="cell-md-4 present-image">
+                        <Image src={Present12} alt="" height="400"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container bg-third" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+            <div style="padding: 100px 0;" class="d-flex flex-align-center flex-justify-center flex-column">
+                <h4>AIKIDO SHUDOKAN / SHIGAKUKAN DOJO</h4>
+                <div class="text-center">
+                    Сенсей Микита Орлов, засновник Shigakukan DOJO – 3-й дан aikido shudokan.
+                    <p>Стажується та атестується у майстра Айкідо Джо Тамбу Шихан.
+                </div>
+                <div class="mt-10">
+                    <div class="row">
+                        <div class="cell-md-4 text-center">
+                            <div class="personality">
+                                <Image src={Joe} alt="" />
+                            </div>
+                            <div class="personality-name">
+                                Joe Thambu Shuseki Shihan
+                            </div>
+                            <div class="personality-dan">
+                                8-й дан
+                            </div>
+                            <div class="personality-state">
+                                Голова Aikido Shudokan, куратор Shigakukan Dojo
+                            </div>
+                        </div>
+                        <div class="cell-md-4"></div>
+                        <div class="cell-md-4 text-center">
+                            <div class="personality">
+                                <Image src={Nik} alt="" />
+                            </div>
+                            <div class="personality-name">
+                                Сенсей Нікіта Орлов
+                            </div>
+                            <div class="personality-dan">
+                                3-й дан
+                            </div>
+                            <div class="personality-state">
+                                Засновник Shigakukan Dojo
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</DefaultPage>

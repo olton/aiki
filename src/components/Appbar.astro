@@ -1,0 +1,25 @@
+---
+import {Image} from "astro:assets";
+import Logo from "../assets/logo.png"
+---
+<div class="container-fluid" style="position: fixed; top: 0; left: 0; right: 0; z-index: var(--z-index-fixed);">
+    <nav data-role="appbar" data-expand-point="xl" class="pt-4 pb-4 container pos-relative">
+        <a href="/" class="app-bar-item-static">
+            <Image src={Logo} alt="Shigakukan DOJO" class="appbar-logo" height="48"/>
+            <div class="appbar-logo-text text-light ml-4 enlarge-2"><span class="text-bold">Shigakukan</span> Dojo <span id="appbar-sub-logo-text">| <span class="text-bold fg-red">Aikido Shudokan</span></span></div>
+        </a>
+
+        <button class="hamburger menu-down" onclick="this.parentNode.classList.toggle('active'); this.classList.toggle('active')">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+
+        <ul class="app-bar-menu ml-auto">
+            <li><a href="/">Головна</a></li>
+            <li><a href="/about">Про нас</a></li>
+            <li><a href="/contacts">Розклад</a></li>
+            <li><a href="/contacts">Контакти</a></li>
+        </ul>
+    </nav>
+</div>

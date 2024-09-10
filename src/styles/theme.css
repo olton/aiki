@@ -1,0 +1,13 @@
+:root {
+    --accent-background: #ce352c;
+    --accent-color: #ffffff;
+    --secondary-background: #f5f5f4;
+    --third-background: #252525;
+    --third-color: #ffffff;
+    --appbar-item-background-hover: #ce352c;
+    --appbar-item-color-hover: #ffffff;
+}
+
+.dark-side {
+
+}
