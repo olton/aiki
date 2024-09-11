@@ -1,0 +1,303 @@
+---
+import DefaultPage from "../layouts/DefaultPage.astro"
+import {Image} from "astro:assets"
+import AikidoForAdult from "../../public/images/aikido-for-adult.jpg"
+import AikidoForChildren from "../../public/images/aikido-for-children.jpg"
+import AikidoForPersonal from "../../public/images/aikido-personal.jpg"
+import AikidoCert from "../../public/images/aikido-cert.jpg"
+import TraningSlide1 from "../assets/traning/group1/slide1.jpg"
+import TraningSlide2 from "../assets/traning/group1/slide2.jpg"
+import TraningSlide3 from "../assets/traning/group1/slide3.jpg"
+import TraningSlide4 from "../assets/traning/group1/slide4.jpg"
+import TraningSlide5 from "../assets/traning/group1/slide5.jpg"
+import TraningSlide6 from "../assets/traning/group1/slide6.jpg"
+import TraningSlide7 from "../assets/traning/group1/slide7.jpg"
+import TraningSlide8 from "../assets/traning/group1/slide8.jpg"
+import WeaponSlide1 from "../assets/traning/group2/slide1.jpg"
+import WeaponSlide2 from "../assets/traning/group2/slide2.jpg"
+import WeaponSlide3 from "../assets/traning/group2/slide3.jpg"
+import WeaponSlide4 from "../assets/traning/group2/slide4.jpg"
+import WeaponSlide5 from "../assets/traning/group2/slide5.jpg"
+import WeaponSlide6 from "../assets/traning/group2/slide6.jpg"
+import WeaponSlide7 from "../assets/traning/group2/slide7.jpg"
+import WeaponSlide8 from "../assets/traning/group2/slide8.jpg"
+import WeaponSlide9 from "../assets/traning/group2/slide9.jpg"
+import WeaponSlide10 from "../assets/traning/group2/slide10.jpg"
+import WeaponSlide11 from "../assets/traning/group2/slide11.jpg"
+import WeaponSlide12 from "../assets/traning/group2/slide12.jpg"
+import CertSlide1 from "../assets/traning/group3/slide1.jpg"
+import CertSlide2 from "../assets/traning/group3/slide2.jpg"
+import CertSlide3 from "../assets/traning/group3/slide3.jpg"
+import CertSlide4 from "../assets/traning/group3/slide4.jpg"
+import CertSlide5 from "../assets/traning/group3/slide5.jpg"
+import CertSlide6 from "../assets/traning/group3/slide6.jpg"
+import CertSlide7 from "../assets/traning/group3/slide7.jpg"
+import CertSlide8 from "../assets/traning/group3/slide8.jpg"
+import Nik from "../assets/personalities/nikita-orlov.jpg"
+---
+<DefaultPage title="Про Shigakukan DOJO - Айкідо в Києві">
+    <div class="container-fluid">
+        <div class="container bg-secondary border-radius-20">
+            <div class="p-10">
+                <div class="row">
+                    <div class="cell-md-6 d-flex flex-column flex-justify-center">
+                        <div class="text-bold fg-gray">SHIGAKUKAN DOJO</div>
+                        <h1 class="text-bold mt-0">Aikido <span class="fg-red">Shudokan</span></h1>
+                    </div>
+
+                    <div class="cell-md-6">
+                        <h4 class="text-light">Ласкаво просимо до <span class="text-bold">Shigakukan Dojo</span>!</h4>
+                        Shigakukan DOJO входить до міжнародної організації Aikido Shudokan Internationl під кураторством Joe Thambu Shuseki Shihan.
+                        Ми представляємо стиль Aikido Shudokan! Shudokan aikido вирізняється унікальною методикою викладання.
+                        Ця система дозволяє в найкоротші терміни опанувати основу технік і принципів айкідо.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container border-bottom bd-default">
+            <div class="p-20-md p-4-fs">
+                <div class="row">
+                    <div class="cell-md-5">
+                        <div class="personality">
+                            <Image src={Nik} alt=""/>
+                        </div>
+                    </div>
+                    <div class="cell-md-1"></div>
+                    <div class="cell-md-6">
+                        <div class="text-leader">Я, Сенсей Нікіта Орлов, радий вітати вас на сторінках нашого сайту!</div>
+                        <div class="mt-4">
+                            Я є засновником і головним тренером школи айкідо Shigakukan Dojo.
+                            Школу айкідо Shigakukan Dojo було засновано в 20хх році.
+                            В 20хх році Shigakukan Dojo увійшло в состав міжнародної організації Aikido Shudokan International.
+                            Куратором школи є Joe Thambu Shuseki Shihan 9-й дан Aikido Shudokan.
+                        </div>
+                        <div class="mt-4">
+                            Приєднуйтесь до нашої школи, та укріплюйте свій дух і тіло!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="pt-10 pb-20">
+                <h1 class="text-center mb-10">Що ми пропонуємо:</h1>
+                <div class="row" style="--grid-gutter: 30px;">
+                    <div class="cell-xl-3 cell-md-6">
+                        <div class="aikido-card">
+                            <div class="aikido-card__image for-children"></div>
+                            <div class="aikido-card__text">
+                                <h4>Айкідо для дітей</h4>
+                                <div class="">
+                                    Тренування для дітей та підлітків
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell-xl-3 cell-md-6">
+                        <div class="aikido-card">
+                            <div class="aikido-card__image for-adult"></div>
+                            <div class="aikido-card__text">
+                                <h4>Айкідо для дорослих</h4>
+                                <div class="">
+                                    Тренування для дорослих будь якого віку
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell-xl-3 cell-md-6">
+                        <div class="aikido-card">
+                            <div class="aikido-card__image for-personal"></div>
+                            <div class="aikido-card__text">
+                                <h4>Персональні тренування</h4>
+                                <div class="">
+                                    Індивідуальні тренування для дорослих та дітей
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell-xl-3 cell-md-6">
+                        <div class="aikido-card">
+                            <div class="aikido-card__image for-cert"></div>
+                            <div class="aikido-card__text">
+                                <h4>Атестація</h4>
+                                <div class="">
+                                    Проведення атестацій та сертифікацій з айкідо
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container bg-secondary border-radius-20">
+            <div class="p-10">
+                <div class="row">
+                    <div class="cell-xl-5">
+                        <h2 class="text-bold">Тренування для дітей та дорослих</h2>
+                        <div class="mt-6">
+                            <span class="fg-red text-bold">Shigakukan Dojo</span> пропонує тренування для дітей та дорослих.
+                            На тренуваннях приділяється особлива увага гармонійному розвитку психічного і фізичного здоров'я.
+                            Регулярно відвідуючи заняття з айкідо, учні розвиваються фізично, зміцнюють здоров'я, вчаться спілкуватися один з одним і досягати поставленої мети.
+                        </div>
+                        <div class="mt-4">
+                            В айкідо існують різноманітні кидкові техніки.
+                            На тренуваннях для дітей часто практикується укемі (страховка при падінні вперед і назад) для того,
+                            щоб вони навчилися правильно падати і могли уникнути травм при подальшому відпрацюванні цих технік.
+                            Укемі також допомагають дітям розвинути гнучкість, рухливість та почуття рівноваги,
+                            оберігають дітей від різних непередбачених ситуацій, вміння правильно падати часто захищає їх від вивихів, травм та розтягувань у звичайному житті.
+                        </div>
+                    </div>
+                    <div class="cell-xl-7 pl-10-md pr-10-md">
+                        <div class="row m-0 pt-20 pb-20" style="--grid-gutter: 10px;">
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={TraningSlide1} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={TraningSlide2} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={TraningSlide3} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={TraningSlide4} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={TraningSlide5} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={TraningSlide6} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={TraningSlide7} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={TraningSlide8} alt="" height="400"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="p-10">
+                <div class="row">
+                    <div class="cell-xl-7 pl-10-md pr-10-md">
+                        <div class="row m-0 pt-20 pb-20" style="--grid-gutter: 10px;">
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide1} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide2} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide3} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide4} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide5} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide6} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide7} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide8} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide9} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide10} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide11} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={WeaponSlide12} alt="" height="400"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell-xl-5">
+                        <h2 class="text-bold">Тренування з навчальною зброєю</h2>
+                        <div class="mt-6">
+                            Особлива увага в <span class="fg-red text-bold">Shigakukan Dojo</span> приділяється роботі зі зброєю.
+                            Як відомо, технічний арсенал айкідо заснований на базі айкі-дзюцу дайто-рю - бойового мистецтва, відомого протягом кількох століть.
+                            У ті роки меч, можливо, був головною, але не єдиною зброєю самураю,
+                            і будь-які існуючі бойові системи розглядалися через призму використання зброї у бою.
+                            Цей підхід дожив до наших днів і знайшов своє відображення у принципах та техніках айкідо.
+                            Можливо, саме з цього робота зі зброєю у багатьох традиційних стилях айкідо практикується досить завзято.
+                            Найчастіше на тренуваннях використовують бокен, дзьо та танто. Бокен - це дерев'яний меч, дзьо - жердина, а танто - дерев'яний, навчальний ніж.
+                        </div>
+                        <div class="mt-4">
+                            Працюючи зі зброєю в айкідо дуже швидко напрацьовується відчуття «ма-ай» — правильної дистанції.
+                            Якщо на звичайному тренуванні багато хто погано визначає оптимальну відстань між партнерами,
+                            то при роботі зі зброєю, нехай навіть навчальною, людина мимоволі сприймає її як потенційну загрозу
+                            і намагається триматися на такій відстані, при якій вона може контролювати озброєного партнера і одночасно її не можна просто так дістати .
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container bg-secondary" style="border-top-right-radius: 20px; border-top-left-radius: 20px;">
+            <div class="p-10">
+                <div class="row">
+                    <div class="cell-xl-5">
+                        <h2 class="text-bold">Атестація та сертифікація</h2>
+                        <div class="mt-6">
+                            <span class="fg-red text-bold">Shigakukan Dojo</span> постійно організовує та проводить різноманітні семінари, атестаційні заходи.
+                            Всі інструктори та учні систематично проходять атестацію та сертифікацію під керівництвом провідних майстрів айкідо ешинкан, таких як Джо Табу Сенсей 9-й дан айкідо ешинкан.
+                        </div>
+                    </div>
+                    <div class="cell-xl-7 pl-10-md pr-10-md">
+                        <div class="row m-0" style="--grid-gutter: 10px;">
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={CertSlide1} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={CertSlide2} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={CertSlide3} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={CertSlide4} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={CertSlide5} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={CertSlide6} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={CertSlide7} alt="" height="400"/>
+                            </div>
+                            <div class="cell-md-4 cell-fs-6 present-image" style="height: 120px;">
+                                <Image src={CertSlide8} alt="" height="400"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</DefaultPage>

@@ -21,6 +21,7 @@
     "rollup-plugin-postcss": "^4.0.2"
   },
   "devDependencies": {
+    "ftp-deploy": "^2.4.7",
     "less": "^4.2.0",
     "rollup": "^4.21.2"
   }

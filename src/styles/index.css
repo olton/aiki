@@ -51,8 +51,15 @@ body {
         img {
             width: 100%;
             height: auto;
-            /*transform: translateY(-100px);*/
             mix-blend-mode: multiply;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .slide {
+            img {
+                transform: translateY(-100px);
+            }
         }
     }
 }
@@ -121,4 +128,39 @@ body {
 
 .personality-state {
     font-size: 12px;
+}
+
+.aikido-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    height: 100%;
+
+    .aikido-card__image {
+        height: 250px;
+        overflow: hidden;
+
+        &.for-children {
+            background: url("/images/aikido-for-children.jpg") top center no-repeat;
+            background-size: cover;
+
+        }
+        &.for-adult {
+            background: url("/images/aikido-for-adult.jpg") top center no-repeat;
+            background-size: cover;
+        }
+        &.for-personal {
+            background: url("/images/aikido-personal.jpg") top center no-repeat;
+            background-size: cover;
+        }
+        &.for-cert {
+            background: url("/images/aikido-cert.jpg") top center no-repeat;
+            background-size: cover;
+        }
+    }
+    .aikido-card__text {
+        padding: 10px;
+    }
 }
