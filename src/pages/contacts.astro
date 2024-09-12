@@ -1,0 +1,76 @@
+---
+import DefaultPage from "../layouts/DefaultPage.astro"
+---
+<DefaultPage title="Контакти ::: Shigakukan Dojo | Aikido Shudokan">
+    <div class="container-fluid">
+        <div class="container bg-secondary">
+            <div class="p-10">
+                <div class="row">
+                    <div class="cell-md-6 d-flex flex-column flex-justify-center">
+                        <div class="text-bold fg-gray">SHIGAKUKAN DOJO</div>
+                        <h1 class="text-bold mt-0">Наші <span class="fg-red">контакти</span></h1>
+                    </div>
+
+                    <div class="cell-md-6">
+                        <div class="text-bold fg-gray">Телефон</div>
+                        <h1 class="text-bold mt-0">+380 (63) 769 0048</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="p-10 text-center text-leader">
+                Ви маєте запитання? Зв'яжіться з нами!
+            </div>
+            <form action="javascript:">
+                <div class="row" style="--grid-gutter: 30px;">
+                    <div class="cell-md-6">
+                        <div class="form-group">
+                            <input type="text" data-role="input" name="username" data-label="Ваше ім'я" placeholder="Введіть ваше ім'я та прізвище..."/>
+                        </div>
+                    </div>
+                    <div class="cell-md-6">
+                        <div class="form-group">
+                            <input type="text" data-role="input" name="email" data-label="Ваша адреса електроної пошти" placeholder="Введіть ваш email..."/>
+                        </div>
+                    </div>
+                    <div class="cell-md-6">
+                        <div class="form-group">
+                            <input type="text" data-role="input" name="phone" data-label="Ваша телефон" placeholder="Введіть ваш номер телефону..."/>
+                        </div>
+                    </div>
+                    <div class="cell-md-6">
+                        <div class="form-group">
+                            <input type="text" data-role="input" name="subject" data-label="Тема питання" placeholder="Зазначте тему питання..."/>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10">
+                    <textarea data-role="text-area" placeholder="Розкрийте деталі вашого запитання..."></textarea>
+                </div>
+                <div class="row mt-10">
+                    <div class="cell-md-6">
+                        <input type="checkbox" data-role="checkbox" data-caption="Надсилаючи форму, я підтверджую свою згоду на обробку персональних даних!"/>
+                    </div>
+                    <div class="cell-md-6 text-right">
+                        <button class="button success" disabled>Відправити повідомлення</button>
+                    </div>
+                </div>
+            </form>
+            <script>
+                $("[type=checkbox]").on("click", (e) => {
+                    e.target.checked ? $("button").removeAttr("disabled") : $("button").attr("disabled", true)
+                })
+            </script>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-20">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.8166512853077!2d30.626202879475766!3d50.40725449820109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5a8b4d9cf41%3A0x983cc7e9b8373914!2sShigakukan%20dojo!5e0!3m2!1sru!2sua!4v1726159342956!5m2!1sru!2sua" height="600" style="width: 100%; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</DefaultPage>
