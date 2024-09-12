@@ -164,3 +164,19 @@ body {
         padding: 10px;
     }
 }
+
+.cert-box {
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    padding: 4px;
+    img {
+        width: 100%;
+        height: auto;
+        transition: transform .3s ease;
+    }
+    &:hover {
+        img {
+            transform: scale(1.1);
+        }
+    }
+}
